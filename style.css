@@ -89,10 +89,182 @@ th,td{
 
 /*c'est le css de home*/
 body{
-    background-color: khaki;
+    background-color: white;
+
 }
 
 header{
-    background-color: aqua;
-    height: 50px;
+   background-image: url('https://media.paruvendu.fr/cms/pictures//2018060109593146.jpg');
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 150px;
+}
+
+.header-en_haut{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+nav ul{
+  background-color:  rgba(255,255,255,0.2);
+  border-radius: 20px;
+  display: flex;
+  padding: 10px 20px;
+  gap: 20px;
+}
+nav ul a{
+  color: white;
+  text-decoration: none;
+}
+
+.header-milieu{
+  text-align: center;
+  font-family:'Poppins';
+}
+.h1-hearder{
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+.h1-hearder mark{
+  color: white;
+  border-radius: 10px;
+  background-color: orange;
+   padding: 5px 10px;
+}
+.bouton_trip{
+  background-color: orange;
+  border-radius: 50px;
+  border-color: orange;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.bouton_trip a{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barre-end{
+  background-color: white;
+  border-radius: 60px;
+  position: relative;
+  bottom: -200px;
+  padding: 10px 15px 20px;
+  width: 40%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.251);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 170px;
+  margin: auto;
+  width: 50%;
+} 
+
+.barre-end ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.barre-end ul a i{
+  color: gray;
+}
+.barre-end button{
+  border-radius: 50px;
+  border-color: orange;
+  background-color: orange;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.215);
+  padding: 10px;
+  width: 190px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search i{
+    color: white;
+}
+.search p{
+  color: white;
+}
+
+.A{
+ margin: 10px;
+}
+
+
+.about-us{
+  text-align: center;
+  color: black;
+  padding: 10px;
+
+}
+.learn_more{
+  background-color: orange;
+  border-color: orange;
+  border-radius: 50px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+  gap: 10px;
+  cursor: pointer;
+}
+.learn_more,i p{
+  color: white;
+} 
+
+.stats{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.cadre{
+  width: 220px;
+  height: 200x;
+  border-radius: 200px;
+  border: 2px solid rgba(245, 245, 245, 0.892);
+  background-color: white;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.cardre,h1{
+  color: rgb(255, 162, 0);
+}
+
+
+.en-bas{
+  background-image: linear-gradient(to right, aqua, rgba(116, 0, 225, 0.958));
+  border-radius: 30px;
+  height: 100px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 50px;
+}
+.dedans{
+  border-radius: 50px;
+  border: 2px solid  rgba(255,255,255,0.2) ;
+  height: 50px;
+}
+.b-subscribe{
+  border-radius: 50px;
+  background-color: orange;
+  border-color: orange;
 }
